@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2783AA2F577A8159FE9DF8E9 /* Pods_xmpp_file_transfer_demo_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C576BCF5B3D56A3A74B09BB1 /* Pods_xmpp_file_transfer_demo_swift.framework */; };
+		495468501ED4535200F1766A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954684F1ED4535200F1766A /* AppDelegate.swift */; };
+		495468521ED4535200F1766A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495468511ED4535200F1766A /* ViewController.swift */; };
+		495468571ED4535200F1766A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495468561ED4535200F1766A /* Assets.xcassets */; };
+		4954685A1ED4535200F1766A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495468581ED4535200F1766A /* LaunchScreen.storyboard */; };
+		495468621ED4632A00F1766A /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495468611ED4632A00F1766A /* TransferViewController.swift */; };
+		495468641ED469AA00F1766A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495468631ED469AA00F1766A /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B2ECEC18206B5C18CD9ADB7 /* Pods-xmpp-file-transfer-demo-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmpp-file-transfer-demo-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xmpp-file-transfer-demo-swift/Pods-xmpp-file-transfer-demo-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		26B60986017588DDA4E3166D /* Pods-xmpp-file-transfer-demo-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmpp-file-transfer-demo-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-xmpp-file-transfer-demo-swift/Pods-xmpp-file-transfer-demo-swift.release.xcconfig"; sourceTree = "<group>"; };
+		4954684C1ED4535200F1766A /* xmpp-file-transfer-demo-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xmpp-file-transfer-demo-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4954684F1ED4535200F1766A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		495468511ED4535200F1766A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		495468561ED4535200F1766A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		495468591ED4535200F1766A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4954685B1ED4535200F1766A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495468611ED4632A00F1766A /* TransferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		495468631ED469AA00F1766A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C576BCF5B3D56A3A74B09BB1 /* Pods_xmpp_file_transfer_demo_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xmpp_file_transfer_demo_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		495468491ED4535200F1766A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2783AA2F577A8159FE9DF8E9 /* Pods_xmpp_file_transfer_demo_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2720C3830118CBD6A34CF4A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C576BCF5B3D56A3A74B09BB1 /* Pods_xmpp_file_transfer_demo_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		495468431ED4535200F1766A = {
+			isa = PBXGroup;
+			children = (
+				4954684E1ED4535200F1766A /* xmpp-file-transfer-demo-swift */,
+				4954684D1ED4535200F1766A /* Products */,
+				FA36A47600125D755F6B676A /* Pods */,
+				2720C3830118CBD6A34CF4A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4954684D1ED4535200F1766A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4954684C1ED4535200F1766A /* xmpp-file-transfer-demo-swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4954684E1ED4535200F1766A /* xmpp-file-transfer-demo-swift */ = {
+			isa = PBXGroup;
+			children = (
+				4954684F1ED4535200F1766A /* AppDelegate.swift */,
+				495468561ED4535200F1766A /* Assets.xcassets */,
+				4954685B1ED4535200F1766A /* Info.plist */,
+				495468631ED469AA00F1766A /* Main.storyboard */,
+				495468581ED4535200F1766A /* LaunchScreen.storyboard */,
+				495468611ED4632A00F1766A /* TransferViewController.swift */,
+				495468511ED4535200F1766A /* ViewController.swift */,
+			);
+			path = "xmpp-file-transfer-demo-swift";
+			sourceTree = "<group>";
+		};
+		FA36A47600125D755F6B676A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B2ECEC18206B5C18CD9ADB7 /* Pods-xmpp-file-transfer-demo-swift.debug.xcconfig */,
+				26B60986017588DDA4E3166D /* Pods-xmpp-file-transfer-demo-swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4954684B1ED4535200F1766A /* xmpp-file-transfer-demo-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4954685E1ED4535200F1766A /* Build configuration list for PBXNativeTarget "xmpp-file-transfer-demo-swift" */;
+			buildPhases = (
+				F13584D61E535854948507B0 /* [CP] Check Pods Manifest.lock */,
+				495468481ED4535200F1766A /* Sources */,
+				495468491ED4535200F1766A /* Frameworks */,
+				4954684A1ED4535200F1766A /* Resources */,
+				424A29EDA5D5E617AC69C5D7 /* [CP] Embed Pods Frameworks */,
+				92E1B41FBBD6A7AFABF83E6E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xmpp-file-transfer-demo-swift";
+			productName = "xmpp-file-transfer-demo-swift";
+			productReference = 4954684C1ED4535200F1766A /* xmpp-file-transfer-demo-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495468441ED4535200F1766A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MiTeGu;
+				TargetAttributes = {
+					4954684B1ED4535200F1766A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 495468471ED4535200F1766A /* Build configuration list for PBXProject "xmpp-file-transfer-demo-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 495468431ED4535200F1766A;
+			productRefGroup = 4954684D1ED4535200F1766A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4954684B1ED4535200F1766A /* xmpp-file-transfer-demo-swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4954684A1ED4535200F1766A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495468641ED469AA00F1766A /* Main.storyboard in Resources */,
+				4954685A1ED4535200F1766A /* LaunchScreen.storyboard in Resources */,
+				495468571ED4535200F1766A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		424A29EDA5D5E617AC69C5D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xmpp-file-transfer-demo-swift/Pods-xmpp-file-transfer-demo-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92E1B41FBBD6A7AFABF83E6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xmpp-file-transfer-demo-swift/Pods-xmpp-file-transfer-demo-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13584D61E535854948507B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495468481ED4535200F1766A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495468521ED4535200F1766A /* ViewController.swift in Sources */,
+				495468621ED4632A00F1766A /* TransferViewController.swift in Sources */,
+				495468501ED4535200F1766A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		495468581ED4535200F1766A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495468591ED4535200F1766A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4954685C1ED4535200F1766A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4954685D1ED4535200F1766A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4954685F1ED4535200F1766A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2ECEC18206B5C18CD9ADB7 /* Pods-xmpp-file-transfer-demo-swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "xmpp-file-transfer-demo-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mitegu.xmpp-file-transfer-demo-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		495468601ED4535200F1766A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B60986017588DDA4E3166D /* Pods-xmpp-file-transfer-demo-swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "xmpp-file-transfer-demo-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mitegu.xmpp-file-transfer-demo-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		495468471ED4535200F1766A /* Build configuration list for PBXProject "xmpp-file-transfer-demo-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4954685C1ED4535200F1766A /* Debug */,
+				4954685D1ED4535200F1766A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4954685E1ED4535200F1766A /* Build configuration list for PBXNativeTarget "xmpp-file-transfer-demo-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4954685F1ED4535200F1766A /* Debug */,
+				495468601ED4535200F1766A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 495468441ED4535200F1766A /* Project object */;
+}
